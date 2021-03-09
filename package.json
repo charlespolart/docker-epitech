@@ -1,0 +1,22 @@
+{
+  "name": "docker-epitech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlespolart/docker-epitech.git"
+  },
+  "author": "Charles Polart <charles.polart@hotmail.fr> (https://charlespolart.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlespolart/docker-epitech/issues"
+  },
+  "homepage": "https://github.com/charlespolart/docker-epitech#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
