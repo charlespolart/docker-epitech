@@ -8,6 +8,11 @@
 ```console
 ~$ docker build -t docker-epitech .
 ```
+*Run **dev** environment*
 ```console
-~$ docker run -it -p 3000:3000 docker-epitech
+~$ docker-compose -f docker-compose.yaml -f docker-compose.dev.yaml up
+```
+*Run **prod** environment*
+```console
+~$ docker-compose -f docker-compose.yaml -f docker-compose.prod.yaml up
 ```
